@@ -6,20 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D30E2FEA2EC5630C00FD3EBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D30E2FE32EC5630C00FD3EBF /* Assets.xcassets */; };
+		D30E2FEB2EC5630C00FD3EBF /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D30E2FE62EC5630C00FD3EBF /* LICENSE */; };
+		D30E2FEC2EC5630C00FD3EBF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D30E2FE72EC5630C00FD3EBF /* README.md */; };
+		D30E2FED2EC5630C00FD3EBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30E2FE42EC5630C00FD3EBF /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		D3B23D192EC42E46002248FE /* PhotoSorts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoSorts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30E2FD52EC5625200FD3EBF /* Lemon Sorter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lemon Sorter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30E2FE32EC5630C00FD3EBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D30E2FE42EC5630C00FD3EBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D30E2FE52EC5630C00FD3EBF /* Lemon Sorter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Lemon Sorter.xcodeproj"; sourceTree = "<group>"; };
+		D30E2FE62EC5630C00FD3EBF /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D30E2FE72EC5630C00FD3EBF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		D3B23D1B2EC42E46002248FE /* PhotoSorts */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PhotoSorts;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
-		D3B23D162EC42E46002248FE /* Frameworks */ = {
+		D30E2FD22EC5625200FD3EBF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,106 +33,120 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D3B23D102EC42E46002248FE = {
+		D30E2FCC2EC5625200FD3EBF = {
 			isa = PBXGroup;
 			children = (
-				D3B23D1B2EC42E46002248FE /* PhotoSorts */,
-				D3B23D1A2EC42E46002248FE /* Products */,
+				D30E2FD62EC5625200FD3EBF /* Products */,
+				D30E2FE32EC5630C00FD3EBF /* Assets.xcassets */,
+				D30E2FE42EC5630C00FD3EBF /* ContentView.swift */,
+				D30E2FE52EC5630C00FD3EBF /* Lemon Sorter.xcodeproj */,
+				D30E2FE62EC5630C00FD3EBF /* LICENSE */,
+				D30E2FE72EC5630C00FD3EBF /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
-		D3B23D1A2EC42E46002248FE /* Products */ = {
+		D30E2FD62EC5625200FD3EBF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D3B23D192EC42E46002248FE /* PhotoSorts.app */,
+				D30E2FD52EC5625200FD3EBF /* Lemon Sorter.app */,
 			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D30E2FE82EC5630C00FD3EBF /* Products */ = {
+			isa = PBXGroup;
 			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D3B23D182EC42E46002248FE /* PhotoSorts */ = {
+		D30E2FD42EC5625200FD3EBF /* Lemon Sorter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3B23D242EC42E48002248FE /* Build configuration list for PBXNativeTarget "PhotoSorts" */;
+			buildConfigurationList = D30E2FE02EC5625200FD3EBF /* Build configuration list for PBXNativeTarget "Lemon Sorter" */;
 			buildPhases = (
-				D3B23D152EC42E46002248FE /* Sources */,
-				D3B23D162EC42E46002248FE /* Frameworks */,
-				D3B23D172EC42E46002248FE /* Resources */,
+				D30E2FD12EC5625200FD3EBF /* Sources */,
+				D30E2FD22EC5625200FD3EBF /* Frameworks */,
+				D30E2FD32EC5625200FD3EBF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				D3B23D1B2EC42E46002248FE /* PhotoSorts */,
-			);
-			name = PhotoSorts;
+			name = "Lemon Sorter";
 			packageProductDependencies = (
 			);
-			productName = PhotoSorts;
-			productReference = D3B23D192EC42E46002248FE /* PhotoSorts.app */;
+			productName = "Lemon Sorter";
+			productReference = D30E2FD52EC5625200FD3EBF /* Lemon Sorter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D3B23D112EC42E46002248FE /* Project object */ = {
+		D30E2FCD2EC5625200FD3EBF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				KnownAssetTags = (
-					New,
-				);
 				LastSwiftUpdateCheck = 2610;
 				LastUpgradeCheck = 2610;
 				TargetAttributes = {
-					D3B23D182EC42E46002248FE = {
+					D30E2FD42EC5625200FD3EBF = {
 						CreatedOnToolsVersion = 26.1;
+						LastSwiftMigration = 2610;
 					};
 				};
 			};
-			buildConfigurationList = D3B23D142EC42E46002248FE /* Build configuration list for PBXProject "PhotoSorts" */;
+			buildConfigurationList = D30E2FD02EC5625200FD3EBF /* Build configuration list for PBXProject "Lemon Sorter" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = D3B23D102EC42E46002248FE;
+			mainGroup = D30E2FCC2EC5625200FD3EBF;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = D3B23D1A2EC42E46002248FE /* Products */;
+			productRefGroup = D30E2FD62EC5625200FD3EBF /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D30E2FE82EC5630C00FD3EBF /* Products */;
+					ProjectRef = D30E2FE52EC5630C00FD3EBF /* Lemon Sorter.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				D3B23D182EC42E46002248FE /* PhotoSorts */,
+				D30E2FD42EC5625200FD3EBF /* Lemon Sorter */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D3B23D172EC42E46002248FE /* Resources */ = {
+		D30E2FD32EC5625200FD3EBF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D30E2FEA2EC5630C00FD3EBF /* Assets.xcassets in Resources */,
+				D30E2FEB2EC5630C00FD3EBF /* LICENSE in Resources */,
+				D30E2FEC2EC5630C00FD3EBF /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D3B23D152EC42E46002248FE /* Sources */ = {
+		D30E2FD12EC5625200FD3EBF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D30E2FED2EC5630C00FD3EBF /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D3B23D222EC42E48002248FE /* Debug */ = {
+		D30E2FDE2EC5625200FD3EBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -192,7 +210,7 @@
 			};
 			name = Debug;
 		};
-		D3B23D232EC42E48002248FE /* Release */ = {
+		D30E2FDF2EC5625200FD3EBF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -248,87 +266,62 @@
 			};
 			name = Release;
 		};
-		D3B23D252EC42E48002248FE /* Debug */ = {
+		D30E2FE12EC5625200FD3EBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = PhotoSorts/Assets.xcassets;
 				DEVELOPMENT_TEAM = 2V47ZMCG9A;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
-				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
-				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
-				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
-				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
-				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
-				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
-				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
-				ENABLE_RESOURCE_ACCESS_USB = NO;
-				ENABLE_USER_SELECTED_FILES = readwrite;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Lemon  Sorter";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = uLemon.PhotoSorter;
+				PRODUCT_BUNDLE_IDENTIFIER = "uLemon.Lemon-Sorter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		D3B23D262EC42E48002248FE /* Release */ = {
+		D30E2FE22EC5625200FD3EBF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = PhotoSorts/Assets.xcassets;
 				DEVELOPMENT_TEAM = 2V47ZMCG9A;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
-				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
-				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
-				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
-				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
-				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
-				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
-				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
-				ENABLE_RESOURCE_ACCESS_USB = NO;
-				ENABLE_USER_SELECTED_FILES = readwrite;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Lemon  Sorter";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = uLemon.PhotoSorter;
+				PRODUCT_BUNDLE_IDENTIFIER = "uLemon.Lemon-Sorter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -343,25 +336,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D3B23D142EC42E46002248FE /* Build configuration list for PBXProject "PhotoSorts" */ = {
+		D30E2FD02EC5625200FD3EBF /* Build configuration list for PBXProject "Lemon Sorter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3B23D222EC42E48002248FE /* Debug */,
-				D3B23D232EC42E48002248FE /* Release */,
+				D30E2FDE2EC5625200FD3EBF /* Debug */,
+				D30E2FDF2EC5625200FD3EBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3B23D242EC42E48002248FE /* Build configuration list for PBXNativeTarget "PhotoSorts" */ = {
+		D30E2FE02EC5625200FD3EBF /* Build configuration list for PBXNativeTarget "Lemon Sorter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3B23D252EC42E48002248FE /* Debug */,
-				D3B23D262EC42E48002248FE /* Release */,
+				D30E2FE12EC5625200FD3EBF /* Debug */,
+				D30E2FE22EC5625200FD3EBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D3B23D112EC42E46002248FE /* Project object */;
+	rootObject = D30E2FCD2EC5625200FD3EBF /* Project object */;
 }
