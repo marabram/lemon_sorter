@@ -375,7 +375,7 @@ enum FolderStructure: CaseIterable {
         case .yyyy: return "YYYY"
         case .yyyy_mm: return "YYYY/MM"
         case .yyyy_mm_dd: return "YYYY/MM/DD"
-        case .hierarchical: return "Nested YYYY"
+        case .hierarchical: return "YYYY/YYYY_MM/YYYY_MM_DD"
         }
     }
 
